@@ -1,0 +1,40 @@
+# Hospital Readmission Prediction - Requirements
+# macOS (Apple Silicon & Intel) — Stable, NumPy 2.x stack
+
+# --------------- Core Data Science ---------------
+pandas==2.2.2
+numpy==2.0.2
+scipy==1.14.1
+
+# --------------- Machine Learning ----------------
+scikit-learn==1.5.2
+xgboost==2.0.3
+
+# --------------- Time Series ---------------------
+statsmodels==0.14.2
+
+# --------------- Visualization -------------------
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.15.0
+
+# --------------- Explainable AI ------------------
+# (Numba/Llvm pins are required for SHAP on macOS)
+llvmlite==0.43.0
+numba==0.60.0
+shap==0.46.0
+
+# --------------- Web App -------------------------
+streamlit==1.38.0
+streamlit-option-menu==0.3.6
+
+# --------------- Utilities -----------------------
+joblib==1.4.2
+tqdm==4.67.1
+python-dotenv==1.0.0
+
+# --------------- Dev Tools -----------------------
+jupyter==1.0.0
+ipykernel==6.25.0
+notebook==6.5.4
+
